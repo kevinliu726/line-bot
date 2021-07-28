@@ -1,0 +1,62 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Pick a topic!",
+          "weight": "bold",
+          "size": "xl",
+          "style": "normal",
+          "position": "relative",
+          "align": "center"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "Self Introduction",
+                "text": "Self_Intro"
+              }
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "Experiences",
+                "text": "Experiences"
+              }
+            }
+          ]
+        }
+      ],
+      "flex": 0
+    },
+    "styles": {
+      "body": {
+        "backgroundColor": "#F0F0F0"
+      },
+      "footer": {
+        "backgroundColor": "#E0E0E0"
+      }
+    }
+  }
